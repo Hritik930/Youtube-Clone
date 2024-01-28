@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Bhaijaan+2&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;700&display=swap');
+
+@media screen and (max-width:1000px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .material-icons{
+        color: rgb(252, 249, 249);
+    }
+    .bx {
+        color: rgb(255, 255, 255);
+    }
+    .header{
+display: flex;
+align-items: center;
+  justify-content: flex-start;
+  background: black;
+  flex-direction: column;
+  height: 12vh;
+    }
+    .header-left{
+        display: flex;
+  align-items: center;
+  margin: -14px 269px -2px -7px;
+    }
+   .header-left a img{
+    width: 180px;
+   }
+}
